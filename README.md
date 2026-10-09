@@ -48,7 +48,7 @@ Then open `http://localhost:8000`. ES modules do not load from `file://`.
 node --test tests/*.test.mjs
 ```
 
-24 tests on node 22 or newer, nothing to install. They check MurmurHash3 against the published test vectors and SMHasher's verification value, HyperLogLog within three standard errors on 100,000 distinct keys and in its linear counting range on 100, Count-Min never undercounting on a Zipf stream, Space-Saving's guarantee for every tracked item, and the burst detector and lane ranking used by the drawing.
+26 tests on node 22 or newer, nothing to install; two of them cover the shared duration formatting. They check MurmurHash3 against the published test vectors and SMHasher's verification value, HyperLogLog within three standard errors on 100,000 distinct keys and in its linear counting range on 100, Count-Min never undercounting on a Zipf stream, Space-Saving's guarantee for every tracked item, and the burst detector and lane ranking used by the drawing.
 
 ## Layout
 
